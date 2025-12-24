@@ -18,7 +18,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 
 mongoose
-  .connect("mongodb://localhost:27017/userDB")
+  .connect()
   .then(() => console.log("DB connected"))
   .catch((err) => {
     console.error(err);
