@@ -1,4 +1,4 @@
-//jshint esversion:6
+
 require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -11,7 +11,7 @@ const saltRounds = 10;
 
 const app = express();
 
-// console.log(process.env.API_KEY);
+
 
 app.use(express.static("public"));
 app.set("view engine", "ejs");
