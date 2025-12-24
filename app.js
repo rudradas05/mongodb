@@ -23,11 +23,7 @@ mongoose
   .catch((err) => {
     console.error(err);
   });
-// mongoose
-//   .connect(
-//     "mongodb+srv://Rudra_das:dasrudra_5836@cluster0.aolnv.mongodb.net/userDB"
-//   )
-//   .then(() => console.log("Db connected"));
+
 
 const userSchema = new mongoose.Schema({
   email: String,
