@@ -118,4 +118,3 @@ app.listen(3000, function () {
   console.log("Server is running on port 3000");
 });
 
-// mongodb+srv://ronyDas:<db_password>@cluster0.gqcb7.mongodb.net/?
